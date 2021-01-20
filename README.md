@@ -2,6 +2,7 @@
 analysis the negation cue in text
 
 Authors: Dilara Çelik, Jasmine van Vugt, Wael al Masri, Amber Pichel
+
 Date: 20-01-2021
 
 In this file, the requirements that are needed in order to run the code are provided.
