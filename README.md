@@ -9,12 +9,12 @@ In this file, the requirements that are needed in order to run the code are prov
 There are certain libraries that will need to be installed beforehand. These libraries can be installed with:
 
 conda install pandas
-pip install -U scikit-learn
-pip install --user -U nltk
-pip install -U spacy
-pip install -U scipy
-pip install -U numpy
-pip install -U pandas
+pip install scikit-learn
+pip install nltk
+pip install spacy
+pip install scipy
+pip install numpy
+pip install pandas
 
 Code:
 
