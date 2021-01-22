@@ -197,7 +197,6 @@ def main(argv=None):
     #features that are analysed, these can be adjusted based on which feature combination you want to analyse
     all_features = ['Token', 'Lemma', 'Pos', 'Chunklabel', 'depREL', 'PToken', 'PTokenPOS']
     baseline_feature = ['Token']
-    trainingfile = 'SEM-2012-SharedTask-CD-SCO-dev-simple1.txt'
     training_features, gold_labels = extract_features_and_labels(trainingfile, all_features)
     baseline_features, gold_labels = extract_features_and_labels(trainingfile, baseline_feature)
     
