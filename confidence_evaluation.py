@@ -47,7 +47,7 @@ class classifierPicker:
                 
 
 def main():
-    df = pd.read_csv('wael_csv.csv')
+    df = pd.read_csv('data_csv.csv')
     
     df_encoded = df.apply(LabelEncoder().fit_transform)
     
