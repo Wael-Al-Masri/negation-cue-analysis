@@ -1,5 +1,5 @@
 # negation-cue-analysis
-# negation-cue-analysis
+
 analysis the negation cue in text
 
 Authors: Dilara Çelik, Jasmine van Vugt, Wael al Masri, Amber Pichel
