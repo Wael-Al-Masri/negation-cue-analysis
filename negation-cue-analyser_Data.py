@@ -98,7 +98,7 @@ def advance_analyser(token_list):
 
 
 if __name__ == '__main__':
-    papers = glob.glob("papers\*.txt")
+    papers = glob.glob("Papers\*.txt")
     print(papers)                                                                             #get the name of all txt files in the folder
     for z in papers:                                                                                        #pick one text file name from the list
         print(z) 
