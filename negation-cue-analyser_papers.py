@@ -68,7 +68,7 @@ def advance_analyser(token_list):
 def main():
     """ This function loop through the list of the files in the folder pick one file, toknize it and search for every negation cues and search for them in the tokens list.
     """
-    papers = glob.glob("papers\*.txt")                                                    #get the name of all txt files in the folder
+    papers = glob.glob("Papers\*.txt")                                                    #get the name of all txt files in the folder
     for z in papers:                                                                #pick one text file name from the list
         print(z)
         with codecs.open(z, 'r', encoding='utf8') as f:                             
